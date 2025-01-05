@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: url('https://wallpaperaccess.com/full/3358425.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #ff414d;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.header h2 {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  color: #e5e5e5;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.form {
+  background: rgba(50, 50, 50, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ff414d;
+}
+
+.form h3 {
+  margin-bottom: 20px;
+  color: #ffc107;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff414d;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.button:hover {
+  background-color: #ff616f;
+}
+
+.output {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #ff414d;
+  border-radius: 5px;
+  font-size: 1.2em;
+  color: #ffc107;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 0.9em;
+}
+
+.footer p {
+  margin: 0;
+  color: #fff;
+}
